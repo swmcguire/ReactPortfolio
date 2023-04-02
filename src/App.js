@@ -3,8 +3,9 @@ import React from 'react';
 //----------------- Importing all the components that will be used below in the App Function
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import Project from './components/Project';
+// import Project from './components/Project';
 import Footer from './components/Footer';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
     return (
@@ -12,8 +13,8 @@ function App() {
 
          <div> 
             <Header />
-            <Navigation />
-            <Project />
+            {/* <Navigation /> */}
+            <PortfolioContainer />
             <Footer />
         </div>
     )

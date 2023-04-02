@@ -4,8 +4,10 @@ import React from 'react';
 
 function Footer() {
     return (
-        <h1>Footer</h1>
-        );
+        <div>
+            <h1>Footer</h1>
+        </div>
+    );
 }
 
 export default Footer;
