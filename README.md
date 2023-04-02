@@ -1,14 +1,16 @@
 # ReactPortfolio
-AS AN employer looking for candidates with experience building single-page applications I WANT to view a potential employee's deployed React portfolio of work samples SO THAT I can assess whether they're a good candidate for an open position
+
+AS A student who is finishing up an intensive 6 month bootcamp I WANT the ability to market mysel to potential employers with a live webpage portfolio SO THAT I can get a job and pay my bills.
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+As someone who has been in the corporate world the last 12+ years, it is beneficial to keep your resume and your list of work up to date.  This updated React Portfolio is a perfect way to display the work/ projects that I have done over the last six months in this bootcamp.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+After this class is done I hope to take what I've learned and transition it into a new and improved role where I can implement software while at the same time troubleshoot and make enhancements to the backend as well.  This portfolio will be a step in the right direction to help secure that dream role.
+
+This project is a react app and I am a big fan of react - I hope to use it more in the future.
+
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 ## Table of Contents (Optional)
 
@@ -28,6 +30,10 @@ Once there you'll have the ability to learn more about who I am, see my portfoli
 Enjoy!!
 
 ## Usage
+
+Live site: <br>
+GitHub Repo: <br>
+GitHub Profile: 
 
 Provide instructions and examples for use. Include screenshots as needed.
 
