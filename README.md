@@ -10,8 +10,6 @@ After this class is done I hope to take what I've learned and transition it into
 
 This project is a react app and I am a big fan of react - I hope to use it more in the future.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
