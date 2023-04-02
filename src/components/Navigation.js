@@ -9,11 +9,11 @@ function Navigation({ currentPage, handlePageChange }) {
     return (
         <div>
             <nav>
-                <ul>
+                <ul className = "nav nav-tabs">
                     <li>
                         <h1>Sean McGuire</h1>
                     </li>
-                    <li >
+                    <li className="nav-item">
                         <a
                             href='#about'
                             onClick={() => handlePageChange('About')}
@@ -21,21 +21,21 @@ function Navigation({ currentPage, handlePageChange }) {
                         >About Me
                         </a>
                     </li>
-                    <li >
+                    <li className="nav-item">
                         <a
                             href='#portfolio'
                             onClick={() => handlePageChange('Portfolio')}
                             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                         >Portfolio</a>
                     </li>
-                    <li >
+                    <li className="nav-item">
                         <a
                             href='#resume'
                             onClick={() => handlePageChange('Resume')}
                             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                         >Resume</a>
                     </li>
-                    <li >
+                    <li className="nav-item">
                         <a
                             href='#contact'
                             onClick={() => handlePageChange('Contact')}
