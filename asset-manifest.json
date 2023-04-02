@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.c2cab247.css",
+    "main.js": "/ReactPortfolio/static/js/main.f51e3887.js",
+    "static/media/Wedding.png": "/ReactPortfolio/static/media/Wedding.fd19140170f6fa39376a.png",
+    "static/media/Original-Portfolio.png": "/ReactPortfolio/static/media/Original-Portfolio.cd60617293b1776daaa8.png",
+    "static/media/FoodAPIApp.png": "/ReactPortfolio/static/media/FoodAPIApp.f1ab646f0f70edbd0030.png",
+    "static/media/JATE-App.png": "/ReactPortfolio/static/media/JATE-App.db545203037e59b505ed.png",
+    "static/media/Quiz-Game.png": "/ReactPortfolio/static/media/Quiz-Game.1fd935fed06fa9ebe3cb.png",
+    "static/media/Employee-Tracker.png": "/ReactPortfolio/static/media/Employee-Tracker.43352d70426edbdc197e.png",
+    "static/media/PasswordGenerator..png": "/ReactPortfolio/static/media/PasswordGenerator..aa25cbf89939def02f6b.png",
+    "static/media/SeanMcGuireResume.docx": "/ReactPortfolio/static/media/SeanMcGuireResume.a1e341488431207969d3.docx",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.c2cab247.css.map": "/ReactPortfolio/static/css/main.c2cab247.css.map",
+    "main.f51e3887.js.map": "/ReactPortfolio/static/js/main.f51e3887.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.f51e3887.js"
+  ]
+}
