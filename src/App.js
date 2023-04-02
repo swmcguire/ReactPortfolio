@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 
 function App() {
     return (
-        //------------------- Will put style-ized classes in className
-        //--------------- ____A_____ will call the different components from 'Components'
-         <div className= " "> 
+        //------------------- Will put style-ized classes in className (ClassName is the same as Class)
+
+         <div> 
             <Header />
             <Navigation />
             <Project />
@@ -19,4 +19,5 @@ function App() {
     )
 }
 
+//-------------- This need to export the default function above
 export default App;

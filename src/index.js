@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 
-//---------------- Will need to import css file/ boot straps/ tailwinds etc to style-ize
+//---------------- Importing Bootstraps - we also need a css component as well 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 //----------------- We are using ReactDOM.render to put our entire app in a document with the dev/id of root
