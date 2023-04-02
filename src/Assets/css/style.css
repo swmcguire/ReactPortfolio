@@ -1,0 +1,250 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(73, 71, 71);
+    margin: 8px;
+    padding: 0px 0px 10px 0px;
+    min-width: 335px;
+}
+
+.header {
+    background-color: rgb(224, 99, 26);  
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+
+.header h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.header nav{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.header nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+.header nav ul li{
+    font-size: 20px;  
+    display: inline-block;
+    margin: 5px;  
+}
+
+.header nav ul li:hover{
+    font-size: 150%;
+ }
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color:white;
+
+}
+
+.hero {
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /*background-image: url("../images/Wedding.JPG");*/
+    /*background-size: cover;*/
+    background-position: center;
+    border: 2px solid black;
+}
+
+.flex{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+.section {
+    font-size: 18px;
+    color: white;
+}
+
+.section h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+.text-flex{
+    padding: 5px;
+}
+
+.image{
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px; 
+    margin: 10px;
+}
+
+.image:hover{
+    transform: scale(1.2);
+}
+
+.about-box{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+.about-box:hover {
+   background-color: rgb(247, 158, 107);
+}
+*/
+
+.prework-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+.prework-box:hover {
+    background-color: rgb(247, 158, 107);
+
+}
+*/
+.project1-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+.project1-box:hover {
+    background-color: rgb(247, 158, 107);
+
+}
+*/
+
+.project2-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*
+.project2-box:hover {
+    background-color: rgb(247, 158, 107);
+}
+*/
+
+.project3-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*
+.project3-box:hover {
+    background-color: rgb(247, 158, 107);
+
+}
+*/
+
+.classproject-1-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.classproject-2-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.contact-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(224, 99, 26);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+@media (max-width: 460px) {
+    .contact-flex{
+        flex-direction: column;
+    }
+}
+
+
+.contact{
+    list-style-type: none;
+    
+}
+
+.h1-padding{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.contact li{
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.contact li:hover{
+    font-size: 150%;
+ }
+
+ .footer{
+    text-align: center;
+ }
