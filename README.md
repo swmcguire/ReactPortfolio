@@ -23,7 +23,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-No Installation Necessary - simply launch a web browser and navigate to:  ______________________
+No Installation Necessary - simply launch a web browser and navigate to:  https://swmcguire.github.io/ReactPortfolio 
 
 Once there you'll have the ability to learn more about who I am, see my portfolio of work, download my resume and reach out to me via my different platforms.
 
@@ -31,15 +31,13 @@ Enjoy!!
 
 ## Usage
 
-Live site: <br>
-GitHub Repo: <br>
-GitHub Profile: 
+Live site:  https://swmcguire.github.io/ReactPortfolio<br>
+GitHub Repo:  https://github.com/swmcguire/ReactPortfolio.git<br>
+GitHub Profile:  https://github.com/swmcguire
 
-Provide instructions and examples for use. Include screenshots as needed.
+No Install necessary - simply launch from the Live Site URL above and see what I can bring to your company.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![Sean's Portfolio](assets/images/screenshot.png)
 
 ## Credits
 
