@@ -10,7 +10,7 @@ const projects = [
     {
         title: 'Employee Tracker',
         image: EmpTracker,
-        deployLink: 'No Link Available',
+        deployLink: 'https://github.com/swmcguire/SQL_Employee_Tracker',
         repoLink: 'https://github.com/swmcguire/SQL_Employee_Tracker',
         altTag: 'Employee Tracker App',
     },
@@ -31,7 +31,7 @@ const projects = [
     {
         title: 'Password Generator',
         image: PassGen,
-        deployLink: 'https://swmcguire.github.io/Challenge-3/',
+        deployLink: 'https://swmcguire.github.io/Password-Generator/',
         repoLink: 'https://github.com/swmcguire/Password-Generator',
         altTag: 'Password Generator',
     },
@@ -53,19 +53,36 @@ const projects = [
 
 function Portfolio() {
     return (
-        <article>
-        <h1> </h1>
         <div>
-            <img
-                src={require('./../../Assets/images/Employee-Tracker.png')}
-                alt='Employee Tracker App'
+            {projects.map((proj) => (
 
-            />
+                <article>
+                    <h3>{proj.title}</h3>
+                    <div>
+                        <img
+                            src={proj.image}
+                            alt={proj.altTag}
+                        />
+                        <a href={proj.repoLink}>
+                            <button>
+                                GitHub Repository
+                            </button>
+                        </a>
+                        <a href={proj.deployLink}>
+                            <button>
+                                Deployed Site
+                            </button>
+                        </a>
+
+                    </div>
+                </article>
+
+
+            ))}
+
         </div>
-    </article>
     )
 }
-
 
 
 export default Portfolio;

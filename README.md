@@ -35,7 +35,7 @@ GitHub Profile:  https://github.com/swmcguire
 
 No Install necessary - simply launch from the Live Site URL above and see what I can bring to your company.
 
-![Sean's Portfolio](assets/images/screenshot.png)
+![Sean's Portfolio](./Assets/PortolioImage.png)
 
 ## Credits
 
