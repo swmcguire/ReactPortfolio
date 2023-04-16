@@ -5,8 +5,16 @@ import OrigPortfolio from './../../Assets/images/Original-Portfolio.png';
 import PassGen from './../../Assets/images/PasswordGenerator..png';
 import JScriptQuiz from './../../Assets/images/Quiz-Game.png';
 import FoodApi from './../../Assets/images/FoodAPIApp.png';
+import HappyCamper from './../../Assets/images/Happy Camper.png';
 
 const projects = [
+    {
+        title: 'Happy Camper Camping App',
+        image: HappyCamper,
+        deployLink: 'https://happy-camper12345.herokuapp.com/',
+        repoLink: 'https://github.com/CBshmear/big-ole-3',
+        altTag: 'Happy Camper Camping App',
+    },
     {
         title: 'Employee Tracker',
         image: EmpTracker,
@@ -28,7 +36,7 @@ const projects = [
         repoLink: 'https://github.com/swmcguire/Challenge-2',
         altTag: 'Original Portfolio',
     },
-    {
+    {    
         title: 'Password Generator',
         image: PassGen,
         deployLink: 'https://swmcguire.github.io/Password-Generator/',
